@@ -60,12 +60,17 @@ document.getElementById('card-1').
 
             // add transiction
 
-            const p = document.createElement('p');
-            p.innerText = `Donate:${donateNumber} tk.Balance:${totalBalance}`;
-            console.log(p);
+            const div = document
+            .createElement('div');
+            div.classList.add('border-2')
+            div.innerHTML=`<h5 class="font-bold">${donateNumber} Taka is Donated for flood at Noakhali, Bangladesh .
+             Current Account Balance is ${totalBalance} Taka</h5>
+            
+            `
+document.getElementById('history-container').appendChild(div);
 
 
-            document.getElementById('transaction-container').appendChild(p);
+        
         }
         else {
 
@@ -116,12 +121,17 @@ document.getElementById('card-2').
 
             // add transiction
 
-            const pera2 = document.createElement('p');
-            pera2.innerText = `Donate:${donateNumber2} tk.Balance:${totalBalance2}`;
-            console.log(pera2);
+            const div2 = document
+.createElement('div');
+div2.classList.add('border-2')
+div2.innerHTML=`<h5 class="font-bold">${donateNumber2} Taka is Donated for flood at Feni, Bangladesh .
+ Current Account Balance is ${totalBalance2} Taka</h5>
+
+`
+document.getElementById('history-container').appendChild(div2);
 
 
-            // document.getElementById('transaction-container').appendChild(pera2);
+         
         }
         else {
 
@@ -172,12 +182,17 @@ document.getElementById('card-3').
 
             // add transiction
 
-            const para = document.createElement('p');
-            para.innerText = `Donate:${donateNumber3} tk.Balance:${totalBalance3}`;
-            console.log(para);
+            const div3 = document
+.createElement('div');
+div3.classList.add('border-2')
+div3.innerHTML=`<h5 class="font-bold">${donateNumber3} Taka is Donated for flood at Noakhali, Bangladesh .
+ Current Account Balance is ${totalBalance3} Taka</h5>
+
+`
+document.getElementById('history-container').appendChild(div3);
 
 
-            //  document.getElementById('transaction-container').appendChild(para);
+           
         }
         else {
 
