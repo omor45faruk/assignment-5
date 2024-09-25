@@ -1,41 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Assignment-5 </title>
-    <script src="https://cdn.tailwindcss.com"></script><link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Assignment-5 </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-   <header>
+  <header>
     <!-- header section start -->
 
-    <div class="navbar bg-base-100  ">
-        <div class="navbar-start">
-          <div class="dropdown ml-10">
-            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-                <button class="btn btn-active btn-primary bg-lime-400  max-sm:hidden">Primary</button> 
-            </div>
-            
+    <div class=" bg-yellow-100 navbar bg-base-100  w-auto max-sm:justify-between justify-around">
+      <div class="">
+        <div class=" ml-10 max-sm:ml-0">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle ml-5">
+            <button class="btn btn-active btn-primary bg-lime-400  ">Blog</button>
           </div>
-        </div>
-        <div class="navbar-center">
-          
-          <div class="logo-text"><a class="btn btn-ghost text-xl"> <img src="assets/logo.png" alt="" srcset="">Donate Bangladesh</a></div>
-        </div>
-        <div class="navbar-end ">
-            <div class="stats shadow">
-                <div class="stat flex">
-                  <div class="coin "><img src="assets/coin.png" alt="" srcset="" class=""></div>
-                  <div class="stat-value ">  89,400 </div>
-                </div>
-              </div>
+
         </div>
       </div>
+      <div class="navbar-center w-auto">
+        <div class="logo"><img src="assets/logo.png" alt="" srcset=""></div>
 
-     <!-- stop header section -->
-   </header> 
-   <main></main>
+        <div class="logo-text"><a class="btn btn-ghost text-xl max-sm:hidden"> Donate Bangladesh</a></div>
+      </div>
+
+      <div class="navbar-end w-auto">
+        <div class="">
+          <div class="max-sm:pb-2 max-sm:pt-2 flex w-max max-sm: m-5">
+            <div class="coin pt-2 mr-2"><img src="assets/coin.png" alt="" srcset="" class=""></div>
+            <div class="stat-value  "> 9400 </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- donation btn & history btn -->
+
+    <div class="cash-btn flex  justify-center mt-10 max-sm:mb-10">
+      <button class="btn mr-2">Donation</button>
+      <button class="btn ml-2">History</button>
+    </div>
+    <!-- stop header section -->
+  </header>
+  <main class="ml-28 mr-28 mt-20 mb-28 max-sm:m-0">
+    
+
+   
+
+
+
+    <!-- end -->
+
+    <!-- card 1 start -->
+
+    <div class="card card-side bg-base-100 shadow-xl bg-repeat h-full w-full max-sm:flex-col mb-4">
+      <div class="card-img">
+        <figure>
+          <img class="" src="assets/noakhali.png" alt="" />
+        </figure>
+      </div>
+      <div class="card-body w-1/2 max-sm:w-auto">
+        <div class="taka-1">
+          <div class="gap-4 w-fit shadow">
+            <div class="stat flex max-sm:pb-2 max-sm:pt-2 w-max max-sm: m-5">
+              <div class="coin "><img src="assets/coin.png" alt="" srcset="" class=""></div>
+              <div class="font-bold ">00 BDT</div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card-contante">
+          <h1 class="card-title mb-5 ">Donate for Flood at noakhali,Bangladesh</h1>
+          <p >The recent floods in noakhali have caused significant damage to homes infrastructure.You donation will help
+            privide essential supplies and to those affected by this disaster . Every contribution big or small , make
+            difference .Please join us in supporting the relief efforts and make a positive impact on the lives of those
+            in needs.</p>
+
+          <!-- input fild -->
+          <input type="text" placeholder="Write Donation Amount" class="input w-full  mt-5" />
+          <div class="card-actions ">
+            <button class="btn btn-primary w-full mt-5">Donate Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- card-2  -->
+
+    <div class="card card-side bg-base-100 shadow-xl bg-repeat h-full w-full max-sm:flex-col mb-4">
+      <div class="card-img">
+        <figure>
+          <img class="" src="assets/feni.png" alt="" />
+        </figure>
+      </div>
+      <div class="card-body w-1/2 max-sm:w-auto">
+        <div class="taka-1">
+          <div class="gap-4 w-fit shadow">
+            <div class="stat flex max-sm:pb-2 max-sm:pt-2 w-max max-sm: m-5">
+              <div class="coin "><img src="assets/coin.png" alt="" srcset="" class=""></div>
+              <div class="font-bold ">600 BDT</div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card-contante">
+          <h1 class="card-title mb-5 ">Donate for Flood at noakhali,Bangladesh</h1>
+          <p >The recent floods in noakhali have caused significant damage to homes infrastructure.You donation will help
+            privide essential supplies and to those affected by this disaster . Every contribution big or small , make
+            difference .Please join us in supporting the relief efforts and make a positive impact on the lives of those
+            in needs.</p>
+
+          <!-- input fild -->
+          <input type="text" placeholder="Write Donation Amount" class="input w-full  mt-5" />
+          <div class="card-actions ">
+            <button class="btn btn-primary w-full mt-5">Donate Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+     <!-- card-2 stop -->
+
+     <!-- card--3 -->
+
+     <div class="card card-side bg-base-100 shadow-xl bg-repeat h-full w-full max-sm:flex-col mb-4">
+      <div class="card-img ">
+        <figure>
+          <img class="" src="assets/quota-protest.png" alt="" />
+        </figure>
+      </div>
+      <div class="card-body w-1/2 max-sm:w-auto">
+        <div class="taka-1">
+          <div class="gap-4 w-fit shadow">
+            <div class="stat flex max-sm:pb-2 max-sm:pt-2 w-max ">
+              <div class="coin "><img src="assets/coin.png" alt="" srcset="" class=""></div>
+              <div class="font-bold ">2400 BDT</div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card-contante">
+          <h1 class="card-title mb-5 ">Donate for Flood at noakhali,Bangladesh</h1>
+          <p >The recent floods in noakhali have caused significant damage to homes infrastructure.You donation will help
+            privide essential supplies and to those affected by this disaster . Every contribution big or small , make
+            difference .Please join us in supporting the relief efforts and make a positive impact on the lives of those
+            in needs.</p>
+
+          <!-- input fild -->
+          <input type="text" placeholder="Write Donation Amount" class="input w-full  mt-5" />
+          <div class="card-actions ">
+            <button class="btn btn-primary w-full mt-5">Donate Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+     <!-- card-3 stop -->
+  </main>
+  <footer class="h-28 bg-yellow-100">
+
+  </footer>
 </body>
+
 </html>
