@@ -2,79 +2,85 @@
 <html lang="en" data-theme="light">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Assignment-5 </title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assignment-5 </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-  <header>
-    <!-- header section start -->
+    <header>
+        <!-- header section start -->
 
-    <div class=" bg-yellow-100 navbar bg-base-100  w-auto max-sm:justify-between justify-around">
-      <div class="">
-        <div class=" ml-10 max-sm:ml-0">
-          <div tabindex="0" role="button" class="btn btn-ghost btn-circle ml-5">
-            <button class="btn  bg-lime-400 font-extrabold ">Home</button>
-          </div>
+        <div class=" bg-yellow-100 navbar bg-base-100  w-auto max-sm:justify-between justify-around">
+            <div class="">
+                <div class=" ml-10 max-sm:ml-0">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle ml-5">
+                        <button class="btn  bg-lime-400 font-extrabold ">Home</button>
+                    </div>
 
+                </div>
+            </div>
+            <div class="navbar-center w-auto">
+                <div class="logo"><img src="assets/logo.png" alt="" srcset=""></div>
+
+                <div class="logo-text"><a class="btn btn-ghost text-xl max-sm:hidden"> Donate Bangladesh</a></div>
+            </div>
+
+            <div class="navbar-end w-auto">
+                <div class="">
+                    <div class="max-sm:pb-2 max-sm:pt-2 flex w-max max-sm: m-5">
+                        <div class="coin pt-2 mr-2"><img src="assets/coin.png" alt="" srcset="" class=""></div>
+                        <div class="stat-value  "> 9400 </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="navbar-center w-auto">
-        <div class="logo"><img src="assets/logo.png" alt="" srcset=""></div>
-
-        <div class="logo-text"><a class="btn btn-ghost text-xl max-sm:hidden"> Donate Bangladesh</a></div>
-      </div>
-
-      <div class="navbar-end w-auto">
-        <div class="">
-          <div class="max-sm:pb-2 max-sm:pt-2 flex w-max max-sm: m-5">
-            <div class="coin pt-2 mr-2"><img src="assets/coin.png" alt="" srcset="" class=""></div>
-            <div class="stat-value  "> 9400 </div>
-          </div>
-        </div>
-      </div>
-    </div>
     </header>
 
     <main>
         <!-- add fAQ -->
-         <div class="faq m-10">
+        <div class="faq m-10">
             <h1 class="font-extrabold text-3xl m-5">Important FAQ</h1>
             <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border mb-2">
                 <div class="collapse-title text-xl font-medium">What is the Document Objects Model?</div>
                 <div class="collapse-content">
-                  <p>The Document Object Model (DOM) is a programming API for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated.</p>
+                    <p>The Document Object Model (DOM) is a programming API for HTML and XML documents. It defines the
+                        logical structure of documents and the way a document is accessed and manipulated.</p>
                 </div>
-              </div>
+            </div>
 
-              <!-- 2 -->
+            <!-- 2 -->
 
-              <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border mb-2">
+            <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border mb-2">
                 <div class="collapse-title text-xl font-medium">How do you select an element from the DOM</div>
                 <div class="collapse-content">
-                  <p>The getElementById() method of the Document interface returns an Element object representing the element whose id property matches the specified string. </p>
+                    <p>The getElementById() method of the Document interface returns an Element object representing the
+                        element whose id property matches the specified string. </p>
                 </div>
-              </div>
+            </div>
 
-              <!-- 3 -->
-              <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border mb-2">
-                <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM , and why is it useful?</div>
+            <!-- 3 -->
+            <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border mb-2">
+                <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM , and
+                    why is it useful?</div>
                 <div class="collapse-content">
-                  <p> the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated</p>
+                    <p> the process of using event propagation (bubbling) to handle events at a higher level in the DOM
+                        than the element on which the event originated</p>
                 </div>
-              </div>
-              <!-- 4 -->
-              <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border mb-2">
-                <div class="collapse-title text-xl font-medium">How do you manipulated an element attribute and style using the DOM</div>
+            </div>
+            <!-- 4 -->
+            <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border mb-2">
+                <div class="collapse-title text-xl font-medium">How do you manipulated an element attribute and style
+                    using the DOM</div>
                 <div class="collapse-content">
-                  <p>The classList object only provide methods to change the class of an element. If you want to change other attributes like id , href , or src , you can use the setAttribute() method.</p>
+                    <p>The classList object only provide methods to change the class of an element. If you want to
+                        change other attributes like id , href , or src , you can use the setAttribute() method.</p>
                 </div>
-              </div>
+            </div>
 
-         </div>
+        </div>
 
     </main>
